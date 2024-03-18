@@ -1,9 +1,4 @@
 import string
-from collections import Counter
-
-import matplotlib.pyplot as plt
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-
 
 # reading text file
 text = open("input.txt", encoding="utf-8").read()
@@ -30,15 +25,3 @@ for word in tokenized_words:
 
 print(final_words)
 
-
-def sentiment_analyse(sentiment_text):
-    score = SentimentIntensityAnalyzer().polarity_scores(sentiment_text)
-    if score['neg'] > score['pos']:
-        print("Negative Sentiment")
-    elif score['neg'] < score['pos']:
-        print("Positive Sentiment")
-    else:
-        print("Neutral Sentiment")
-
-
-sentiment_analyse(cleaned_text)
