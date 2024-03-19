@@ -1,0 +1,7 @@
+Distribution of classes in Training Set:
+['sad', 'happy', 'disgust', 'surprise', 'fear', 'angry']
+[1000, 1500, 500, 400, 300, 1000]
+
+Distribution of classes in Testing Set:
+['sad', 'happy', 'disgust', 'surprise', 'fear', 'angry']
+[200, 300, 100, 80, 60, 200]

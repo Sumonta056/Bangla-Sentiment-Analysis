@@ -1,7 +1,7 @@
 import csv
 
 # Path to the text file
-text_file_path = "Bangla Emotion-Messaage List-1.txt"
+text_file_path = "./Data.txt"
 
 # Path to the CSV file
 csv_file_path = "output.csv"

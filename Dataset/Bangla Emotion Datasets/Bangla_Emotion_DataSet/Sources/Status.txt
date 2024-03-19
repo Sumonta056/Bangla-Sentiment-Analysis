@@ -1,0 +1,35 @@
+EkattorTV_Comments:
+
+sad	288
+happy	155
+disgust	74
+surprise	173
+fear	89
+angry	243 
+Total	1022
+
+Magistrate_Comments
+
+Statistics:	
+sad	211
+happy	733
+disgust	176
+surprise	118
+fear	84
+angry	222
+Total	1544
+
+
+ImranHSharkar_Comment
+
+Statistics:	
+sad	842
+happy	1020
+disgust	453
+surprise	271
+fear	211
+angry	951
+Total	3748
+
+
+Sub Total = 6314
